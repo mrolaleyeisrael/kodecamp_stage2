@@ -6,9 +6,15 @@
     "isAvailable": true
   },
   {
+    "title": "The Great Gatsby",
+    "author": "F. Scott Fitzgerald",
+    "isbn": "12345690",
+    "isAvailable": true
+  },
+  {
     "title": "1984",
     "author": "George Orwell",
-    "isbn": "1234567891",
+    "isbn": "123467891",
     "isAvailable": true
   }
 ]
