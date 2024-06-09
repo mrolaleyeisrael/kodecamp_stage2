@@ -14,16 +14,16 @@ const user2 = new User('Bob', '002');
 library.addUser(user1);
 library.addUser(user2);
 
-library.borrowBook('001', '1234567890');
+// library.borrowBook('001', '1234567890');
 
-console.log(library.isBookAvailable('1234567890'));
+// console.log(library.isBookAvailable('1234567890'));
 
-library.returnBook('001', '1234567890');
+// library.returnBook('001', '1234567890');
 
-console.log(library.isBookAvailable('1234567890'));
+// console.log(library.isBookAvailable('1234567890'));
 
 console.log(library.searchBook('1984'));
 
-console.log(library.searchUser('Alice'));
+// console.log(library.searchUser('Alice'));
 
-console.log(library.removeBook("1234567891"))
+// console.log(library.removeBook("1234567891"))

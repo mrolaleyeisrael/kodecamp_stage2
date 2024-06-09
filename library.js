@@ -13,7 +13,6 @@ export class Library {
   /**
 * Manage users and books.
 * @param {name} name - The name of the user.
-
 */
   constructor() {
     this.booksFilePath = path.join(__dirname, 'data', 'books.json');
@@ -111,6 +110,7 @@ export class Library {
   */
   searchBook(query) {
     const searchTerm = query.toLowerCase();
+    
     return this.books.filter(book =>
       book.title.toLowerCase().includes(searchTerm) ||
       book.author.toLowerCase().includes(searchTerm) ||
